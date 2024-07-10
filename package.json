@@ -1,6 +1,6 @@
 {
 	"name": "log_server_api",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
@@ -26,6 +26,7 @@
 		"jsonwebtoken": "^9.0.2",
 		"moment": "^2.29.1",
 		"pg": "^8.7.1",
+		"stomp": "^0.1.1",
 		"uuid": "^8.3.2"
 	}
 }
