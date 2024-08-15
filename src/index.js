@@ -75,7 +75,7 @@ function testServer(socket) { // 1) create a listener for incoming raw TCP conne
 
 const server = createServer(testServer); // 4) Create a TCP server
 
-server.listen(51091, '127.0.0.1'); // 5) Listen for incoming connections
+server.listen(process.env.STOMP_PORT, '127.0.0.1'); // 5) Listen for incoming connections
 
 // back to Express
 
