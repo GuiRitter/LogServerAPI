@@ -84,3 +84,6 @@ app.listen(process.env.PORT, '127.0.0.1').on('listening', () => {
 });
 
 export default app;
+
+// TODO try this https://github.com/morganstanley/message-broker with this https://stackoverflow.com/a/59552117/1781376
+// TODO actually, maybe this https://dev.to/chegerose/top-5-cloud-native-message-queues-mqs-with-nodejs-support-ak5
