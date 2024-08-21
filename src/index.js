@@ -1,5 +1,6 @@
 import '@babel/polyfill'; // always first import
 import 'dotenv/config'; // always second import
+import "reflect-metadata"; // always third import
 import express from 'express';
 import cors from 'cors';
 
