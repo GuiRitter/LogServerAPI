@@ -1,6 +1,6 @@
-import 'dotenv/config'; // always first import
+import '@babel/polyfill'; // always first import
+import 'dotenv/config'; // always second import
 import express from 'express';
-import 'babel-polyfill';
 import cors from 'cors';
 
 import logRoute from './app/route/logRoute';
